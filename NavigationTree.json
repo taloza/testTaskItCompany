@@ -1,0 +1,3089 @@
+{
+  "nodes": [ 
+    {
+      "id": "abc_172.22.22.214",
+      "state": "down",
+      "type": "switch",
+      "name": "abc",
+      "vendor": "Fortinet, Inc.",
+      "location": "xyz",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "abc_172.22.22.214.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "abc_172.22.22.214.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "abc_172.22.22.214.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "MON_LOGS_192.168.1.53",
+      "state": "minor",
+      "type": "server",
+      "name": "MON_LOGS",
+      "vendor": "net-snmp",
+      "location": "OHIO",
+      "deviceType": "server",
+      "service": "Virtual Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "MON_LOGS_192.168.1.53.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "MON_LOGS_192.168.1.53.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "R5300_172.22.22.210",
+      "state": "critical",
+      "type": "router",
+      "name": "R5300",
+      "vendor": "Farallon Computing, Inc.",
+      "location": "London",
+      "deviceType": "router",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "R5300_172.22.22.210.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "R5300_172.22.22.210.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "R5300_172.22.22.210.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "R5300_172.22.22.210.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "172.22.22.213",
+      "state": "up",
+      "type": "switch",
+      "name": "172.22.22.213",
+      "vendor": "Hewlett-Packard",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "172.22.22.213.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120",
+      "state": "up",
+      "type": "router",
+      "name": "Cisco3745new-1.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Kiev",
+      "deviceType": "router",
+      "service": "Router",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/0",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/3",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se0/1",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/1",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa1/0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se0/2",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se0/0",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/2",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-1.NETDMT.COM_172.22.22.120.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/1",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "FW-RD.NETDMT.COM_172.22.22.1",
+      "state": "critical",
+      "type": "server",
+      "name": "FW-RD.NETDMT.COM",
+      "vendor": "net-snmp",
+      "location": "Kiev",
+      "deviceType": "server",
+      "service": "Firewall",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.22",
+          "ifIndex": 22,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq11",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.21",
+          "ifIndex": 21,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq10",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "br.lxc",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.11",
+          "ifIndex": 11,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "imq0",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq1",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.27",
+          "ifIndex": 27,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "tun0",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.14",
+          "ifIndex": 14,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq3",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.13",
+          "ifIndex": 13,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq2",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.16",
+          "ifIndex": 16,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq5",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.15",
+          "ifIndex": 15,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq4",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.19",
+          "ifIndex": 19,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq8",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.24",
+          "ifIndex": 24,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq13",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.25",
+          "ifIndex": 25,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq14",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.20",
+          "ifIndex": 20,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq9",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.23",
+          "ifIndex": 23,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq12",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.26",
+          "ifIndex": 26,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq15",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.17",
+          "ifIndex": 17,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq6",
+          "state": "down"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth1",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "utun",
+          "state": "up"
+        },
+        {
+          "id": "FW-RD.NETDMT.COM_172.22.22.1.if.18",
+          "ifIndex": 18,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "imq7",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "Summit5iTx_172.22.22.215",
+      "state": "up",
+      "type": "switch",
+      "name": "Summit5iTx",
+      "vendor": "Extreme Networks",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Summit5iTx_172.22.22.215.if.15",
+          "ifIndex": 15,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/15",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.26",
+          "ifIndex": 26,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "802.1Q Encapsulation Tag 0010",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.20",
+          "ifIndex": 20,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "802.1Q Encapsulation Tag 0001",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.22",
+          "ifIndex": 22,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "802.1Q Encapsulation Tag 4094",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.29",
+          "ifIndex": 29,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo0",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.31",
+          "ifIndex": 31,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "rif1(192.16.170.138)",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.25",
+          "ifIndex": 25,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "roachmotel",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.13",
+          "ifIndex": 13,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/13",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/4",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/6",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.11",
+          "ifIndex": 11,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/11",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.16",
+          "ifIndex": 16,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "1/16",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/8",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.27",
+          "ifIndex": 27,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "MacVlanDiscover",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "1/1",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/10",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.19",
+          "ifIndex": 19,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Default",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.14",
+          "ifIndex": 14,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/14",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.17",
+          "ifIndex": 17,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Management Port",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/3",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.30",
+          "ifIndex": 30,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "rif0(0.0.0.0)",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/12",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/5",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/9",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/7",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.32",
+          "ifIndex": 32,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "rif2(45.0.0.1)",
+          "state": "up"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.21",
+          "ifIndex": 21,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Mgmt",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "1/2",
+          "state": "down"
+        },
+        {
+          "id": "Summit5iTx_172.22.22.215.if.23",
+          "ifIndex": 23,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "intnet",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "172.22.22.217",
+      "state": "down",
+      "type": "switch",
+      "name": "172.22.22.217",
+      "vendor": "Enterasys Networks Inc.",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "172.22.22.217.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202",
+      "state": "up",
+      "type": "switch",
+      "name": "Huawei_Versatile_Routing_VRP_3.10",
+      "vendor": "HUAWEI Technology Co.,Ltd",
+      "location": "gambit",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227762",
+          "ifIndex": 4227762,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/18",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227866",
+          "ifIndex": 4227866,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/31",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227722",
+          "ifIndex": 4227722,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/13",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227906",
+          "ifIndex": 4227906,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/36",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227962",
+          "ifIndex": 4227962,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/43",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4228002",
+          "ifIndex": 4228002,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/48",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227778",
+          "ifIndex": 4227778,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/20",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227818",
+          "ifIndex": 4227818,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/25",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227850",
+          "ifIndex": 4227850,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/29",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227786",
+          "ifIndex": 4227786,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/21",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227666",
+          "ifIndex": 4227666,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/6",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227626",
+          "ifIndex": 4227626,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/1",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227826",
+          "ifIndex": 4227826,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/26",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227730",
+          "ifIndex": 4227730,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/14",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227770",
+          "ifIndex": 4227770,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/19",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.14",
+          "ifIndex": 14,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "NULL0",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227614",
+          "ifIndex": 4227614,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Aux1/0/0",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227690",
+          "ifIndex": 4227690,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/9",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227810",
+          "ifIndex": 4227810,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/24",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227970",
+          "ifIndex": 4227970,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/44",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4228065",
+          "ifIndex": 4228065,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "GigabitEthernet1/1/4",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227754",
+          "ifIndex": 4227754,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/17",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227914",
+          "ifIndex": 4227914,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/37",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4228041",
+          "ifIndex": 4228041,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "GigabitEthernet1/1/1",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227674",
+          "ifIndex": 4227674,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/7",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227834",
+          "ifIndex": 4227834,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/27",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227994",
+          "ifIndex": 4227994,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/47",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4631",
+          "ifIndex": 4631,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vlan-interface576",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227938",
+          "ifIndex": 4227938,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/40",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4599",
+          "ifIndex": 4599,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vlan-interface572",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227698",
+          "ifIndex": 4227698,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/10",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227858",
+          "ifIndex": 4227858,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/30",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227882",
+          "ifIndex": 4227882,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/33",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.16",
+          "ifIndex": 16,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "InLoopBack0",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227922",
+          "ifIndex": 4227922,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/38",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227706",
+          "ifIndex": 4227706,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/11",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4228057",
+          "ifIndex": 4228057,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "GigabitEthernet1/1/3",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227642",
+          "ifIndex": 4227642,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/3",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227978",
+          "ifIndex": 4227978,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/45",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227946",
+          "ifIndex": 4227946,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/41",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227746",
+          "ifIndex": 4227746,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/16",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227930",
+          "ifIndex": 4227930,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/39",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227802",
+          "ifIndex": 4227802,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/23",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227650",
+          "ifIndex": 4227650,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/4",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227986",
+          "ifIndex": 4227986,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/46",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227890",
+          "ifIndex": 4227890,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/34",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227714",
+          "ifIndex": 4227714,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/12",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227874",
+          "ifIndex": 4227874,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/32",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227634",
+          "ifIndex": 4227634,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/2",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4228049",
+          "ifIndex": 4228049,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "GigabitEthernet1/1/2",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227842",
+          "ifIndex": 4227842,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/28",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227898",
+          "ifIndex": 4227898,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/35",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227658",
+          "ifIndex": 4227658,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/5",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227682",
+          "ifIndex": 4227682,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/8",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227794",
+          "ifIndex": 4227794,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/22",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227954",
+          "ifIndex": 4227954,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/42",
+          "state": "up"
+        },
+        {
+          "id": "Huawei_Versatile_Routing_VRP_3.10_172.22.22.202.if.4227738",
+          "ifIndex": 4227738,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Ethernet1/0/15",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "zywall-usg-50_172.22.22.218",
+      "state": "up",
+      "type": "switch",
+      "name": "zywall-usg-50",
+      "vendor": "ZyXEL Communications Corp.",
+      "location": "gambit",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.11",
+          "ifIndex": 11,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "zywall-usg-50_172.22.22.218.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "Express_460T_172.22.22.212",
+      "state": "down",
+      "type": "switch",
+      "name": "Express 460T",
+      "vendor": "Intel Corporation",
+      "location": "N-I INS1400 Booth",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Express_460T_172.22.22.212.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.11",
+          "ifIndex": 11,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.16",
+          "ifIndex": 16,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.15",
+          "ifIndex": 15,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.13",
+          "ifIndex": 13,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.14",
+          "ifIndex": 14,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "Express_460T_172.22.22.212.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "CENTOS_FTP_172.22.22.106",
+      "state": "critical",
+      "type": "server",
+      "name": "CENTOS_FTP",
+      "vendor": "net-snmp",
+      "location": "Kiev",
+      "deviceType": "server",
+      "service": "Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "CENTOS_FTP_172.22.22.106.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "CENTOS_FTP_172.22.22.106.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "enp2s0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "LinkSwitch_1000_172.22.22.219",
+      "state": "down",
+      "type": "switch",
+      "name": "LinkSwitch 1000",
+      "vendor": "3Com",
+      "location": "London",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.13",
+          "ifIndex": 13,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.15",
+          "ifIndex": 15,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.14",
+          "ifIndex": 14,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.16",
+          "ifIndex": 16,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.11",
+          "ifIndex": 11,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "LinkSwitch_1000_172.22.22.219.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "C3725.NETDMT.COM_172.22.22.130",
+      "state": "minor",
+      "type": "switch",
+      "name": "C3725.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Kiev",
+      "deviceType": "switch",
+      "service": "Router",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "C3725.NETDMT.COM_172.22.22.130.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "C3725.NETDMT.COM_172.22.22.130.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        },
+        {
+          "id": "C3725.NETDMT.COM_172.22.22.130.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Fa0/1",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "Cisco3640new-1.NETDMT.COM_172.22.22.180",
+      "state": "minor",
+      "type": "router",
+      "name": "Cisco3640new-1.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Kiev",
+      "deviceType": "router",
+      "service": "Router",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Cisco3640new-1.NETDMT.COM_172.22.22.180.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3640new-1.NETDMT.COM_172.22.22.180.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "172.22.22.209",
+      "state": "up",
+      "type": "switch",
+      "name": "172.22.22.209",
+      "vendor": "Xerox",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "172.22.22.209.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "Juniper_ERX-310_172.22.22.206",
+      "state": "up",
+      "type": "switch",
+      "name": "Juniper_ERX-310",
+      "vendor": "Juniper Networks/Unisphere",
+      "location": "gambit",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663298",
+          "ifIndex": 100663298,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/0",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "null0",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663299",
+          "ifIndex": 100663299,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/1",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663297",
+          "ifIndex": 100663297,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET0/0",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663301",
+          "ifIndex": 100663301,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/3",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663302",
+          "ifIndex": 100663302,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/4",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663303",
+          "ifIndex": 100663303,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/5",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663304",
+          "ifIndex": 100663304,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/6",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663305",
+          "ifIndex": 100663305,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/7",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ipint",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.20249",
+          "ifIndex": 20249,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/1",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.100663300",
+          "ifIndex": 100663300,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/2",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.10006",
+          "ifIndex": 10006,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ET1/0",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.10007",
+          "ifIndex": 10007,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "loopback0",
+          "state": "up"
+        },
+        {
+          "id": "Juniper_ERX-310_172.22.22.206.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "vrf-internal1",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "DEV_PORTAL_192.168.3.10",
+      "state": "up",
+      "type": "server",
+      "name": "DEV_PORTAL",
+      "vendor": "net-snmp",
+      "location": "OHIO",
+      "deviceType": "server",
+      "service": "Virtual Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "DEV_PORTAL_192.168.3.10.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "vethda39dd4",
+          "state": "up"
+        },
+        {
+          "id": "DEV_PORTAL_192.168.3.10.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "DEV_PORTAL_192.168.3.10.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        },
+        {
+          "id": "DEV_PORTAL_192.168.3.10.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "docker0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "C2.NETDMT.COM_172.22.22.126",
+      "state": "minor",
+      "type": "switch",
+      "name": "C2.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "C2.NETDMT.COM_172.22.22.126.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "C2.NETDMT.COM_172.22.22.126.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Fa0/1",
+          "state": "down"
+        },
+        {
+          "id": "C2.NETDMT.COM_172.22.22.126.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "MON_NOSQL_192.168.1.22",
+      "state": "up",
+      "type": "server",
+      "name": "MON_NOSQL",
+      "vendor": "net-snmp",
+      "location": "OHIO",
+      "deviceType": "server",
+      "service": "Virtual Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "MON_NOSQL_192.168.1.22.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "MON_NOSQL_192.168.1.22.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "MikroTik_172.22.22.109",
+      "state": "up",
+      "type": "switch",
+      "name": "MikroTik",
+      "vendor": "MikroTik",
+      "location": "Kiev",
+      "deviceType": "switch",
+      "service": "Router",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "MikroTik_172.22.22.109.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ether1",
+          "state": "up"
+        },
+        {
+          "id": "MikroTik_172.22.22.109.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "ether2",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "WinXP_workstation_172.22.22.201",
+      "state": "minor",
+      "type": "switch",
+      "name": "WinXP_workstation",
+      "vendor": "Microsoft",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "WinXP_workstation_172.22.22.201.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "WinXP_workstation_172.22.22.201.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "3560G-8-8_172.22.22.205",
+      "state": "minor",
+      "type": "switch",
+      "name": "3560G-8-8",
+      "vendor": "ciscoSystems",
+      "location": "Unknown Location",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10127",
+          "ifIndex": 10127,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/27",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vl1",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10113",
+          "ifIndex": 10113,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/13",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vl3",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10120",
+          "ifIndex": 10120,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/20",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10117",
+          "ifIndex": 10117,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/17",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10102",
+          "ifIndex": 10102,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/2",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10103",
+          "ifIndex": 10103,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/3",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10123",
+          "ifIndex": 10123,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/23",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10124",
+          "ifIndex": 10124,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/24",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10106",
+          "ifIndex": 10106,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/6",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10128",
+          "ifIndex": 10128,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/28",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.14501",
+          "ifIndex": 14501,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vl5",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10118",
+          "ifIndex": 10118,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/18",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vl4",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10111",
+          "ifIndex": 10111,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/11",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10109",
+          "ifIndex": 10109,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/9",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10105",
+          "ifIndex": 10105,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/5",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10114",
+          "ifIndex": 10114,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/14",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10125",
+          "ifIndex": 10125,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/25",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10110",
+          "ifIndex": 10110,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/10",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10101",
+          "ifIndex": 10101,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/1",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10121",
+          "ifIndex": 10121,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/21",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vl2",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10107",
+          "ifIndex": 10107,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/7",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10115",
+          "ifIndex": 10115,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/15",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10126",
+          "ifIndex": 10126,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/26",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10112",
+          "ifIndex": 10112,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/12",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10119",
+          "ifIndex": 10119,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/19",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10104",
+          "ifIndex": 10104,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/4",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10116",
+          "ifIndex": 10116,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/16",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10122",
+          "ifIndex": 10122,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/22",
+          "state": "up"
+        },
+        {
+          "id": "3560G-8-8_172.22.22.205.if.10108",
+          "ifIndex": 10108,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Gi0/8",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "MON_HBASE_192.168.1.66",
+      "state": "up",
+      "type": "server",
+      "name": "MON_HBASE",
+      "vendor": "net-snmp",
+      "location": "OHIO",
+      "deviceType": "server",
+      "service": "Virtual Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "MON_HBASE_192.168.1.66.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "MON_HBASE_192.168.1.66.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "av96x1_172.22.22.207",
+      "state": "up",
+      "type": "switch",
+      "name": "av96x1",
+      "vendor": "Avaya Communication",
+      "location": "Lincroft New Jersey USA",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "av96x1_172.22.22.207.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "phy0",
+          "state": "down"
+        },
+        {
+          "id": "av96x1_172.22.22.207.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        },
+        {
+          "id": "av96x1_172.22.22.207.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        },
+        {
+          "id": "av96x1_172.22.22.207.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "phy1",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "MON_KAFKA_192.168.1.23",
+      "state": "critical",
+      "type": "server",
+      "name": "MON_KAFKA",
+      "vendor": "net-snmp",
+      "location": "OHIO",
+      "deviceType": "server",
+      "service": "Virtual Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "MON_KAFKA_192.168.1.23.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        },
+        {
+          "id": "MON_KAFKA_192.168.1.23.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112",
+      "state": "up",
+      "type": "router",
+      "name": "Cisco3745new-2.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Unknown Location",
+      "deviceType": "router",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/0",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/3",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se0/1",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se0/2",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa1/0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se0/0",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/1",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/2",
+          "state": "down"
+        },
+        {
+          "id": "Cisco3745new-2.NETDMT.COM_172.22.22.112.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Se2/1",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "R_172.22.22.102",
+      "state": "down",
+      "type": "server",
+      "name": "R",
+      "vendor": "net-snmp",
+      "location": "Kiev",
+      "deviceType": "server",
+      "service": "Desktop",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "R_172.22.22.102.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "stf0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "gif0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "en3",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "en1",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.7",
+          "ifIndex": 7,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "fw0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "en0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.8",
+          "ifIndex": 8,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "p2p0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.10",
+          "ifIndex": 10,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "bridge0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.9",
+          "ifIndex": 9,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "awdl0",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.11",
+          "ifIndex": 11,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "vmnet1",
+          "state": "down"
+        },
+        {
+          "id": "R_172.22.22.102.if.12",
+          "ifIndex": 12,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "vmnet8",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "C7200.NETDMT.COM_172.22.22.178",
+      "state": "up",
+      "type": "router",
+      "name": "C7200.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Kiev",
+      "deviceType": "router",
+      "service": "Router",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "C7200.NETDMT.COM_172.22.22.178.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Vo0",
+          "state": "up"
+        },
+        {
+          "id": "C7200.NETDMT.COM_172.22.22.178.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "C7200.NETDMT.COM_172.22.22.178.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "NMS152_172.22.22.211",
+      "state": "up",
+      "type": "switch",
+      "name": "NMS152",
+      "vendor": "Xylan Corp.",
+      "location": "NMS TEST LAB",
+      "deviceType": "switch",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "NMS152_172.22.22.211.if.4012",
+          "ifIndex": 4012,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6006",
+          "ifIndex": 6006,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6008",
+          "ifIndex": 6008,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.5065",
+          "ifIndex": 5065,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3004",
+          "ifIndex": 3004,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4009",
+          "ifIndex": 4009,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.9003",
+          "ifIndex": 9003,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.2065",
+          "ifIndex": 2065,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.7003",
+          "ifIndex": 7003,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6003",
+          "ifIndex": 6003,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.9002",
+          "ifIndex": 9002,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3006",
+          "ifIndex": 3006,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4003",
+          "ifIndex": 4003,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4006",
+          "ifIndex": 4006,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6002",
+          "ifIndex": 6002,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.2066",
+          "ifIndex": 2066,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.9005",
+          "ifIndex": 9005,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3001",
+          "ifIndex": 3001,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4010",
+          "ifIndex": 4010,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.7002",
+          "ifIndex": 7002,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.7004",
+          "ifIndex": 7004,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.9006",
+          "ifIndex": 9006,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3008",
+          "ifIndex": 3008,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4001",
+          "ifIndex": 4001,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4008",
+          "ifIndex": 4008,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3003",
+          "ifIndex": 3003,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6007",
+          "ifIndex": 6007,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3005",
+          "ifIndex": 3005,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4004",
+          "ifIndex": 4004,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.5001",
+          "ifIndex": 5001,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.5002",
+          "ifIndex": 5002,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.9001",
+          "ifIndex": 9001,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4005",
+          "ifIndex": 4005,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6004",
+          "ifIndex": 6004,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.9004",
+          "ifIndex": 9004,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6001",
+          "ifIndex": 6001,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4007",
+          "ifIndex": 4007,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4011",
+          "ifIndex": 4011,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3002",
+          "ifIndex": 3002,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.7001",
+          "ifIndex": 7001,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.6005",
+          "ifIndex": 6005,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.3007",
+          "ifIndex": 3007,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "0",
+          "state": "down"
+        },
+        {
+          "id": "NMS152_172.22.22.211.if.4002",
+          "ifIndex": 4002,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "0",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "DEV_JUMP_192.168.0.10",
+      "state": "up",
+      "type": "server",
+      "name": "DEV_JUMP",
+      "vendor": "net-snmp",
+      "location": "OHIO",
+      "deviceType": "server",
+      "service": "Virtual Server",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "DEV_JUMP_192.168.0.10.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "eth0",
+          "state": "up"
+        },
+        {
+          "id": "DEV_JUMP_192.168.0.10.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "lo",
+          "state": "up"
+        }
+      ]
+    },
+    {
+      "id": "H3C-Router-12-12_172.22.22.208",
+      "state": "up",
+      "type": "router",
+      "name": "H3C-Router-12-12",
+      "vendor": "H3C",
+      "location": "gambit",
+      "deviceType": "router",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "H3C-Router-12-12_172.22.22.208.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "GigabitEthernet0/1",
+          "state": "up"
+        },
+        {
+          "id": "H3C-Router-12-12_172.22.22.208.if.4",
+          "ifIndex": 4,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "NULL0",
+          "state": "up"
+        },
+        {
+          "id": "H3C-Router-12-12_172.22.22.208.if.5",
+          "ifIndex": 5,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Virtual-Template1",
+          "state": "up"
+        },
+        {
+          "id": "H3C-Router-12-12_172.22.22.208.if.2",
+          "ifIndex": 2,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "GigabitEthernet0/0",
+          "state": "up"
+        },
+        {
+          "id": "H3C-Router-12-12_172.22.22.208.if.6",
+          "ifIndex": 6,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Virtual-Ethernet1",
+          "state": "down"
+        },
+        {
+          "id": "H3C-Router-12-12_172.22.22.208.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": false,
+          "name": "Aux0",
+          "state": "down"
+        }
+      ]
+    },
+    {
+      "id": "Cisco3640new-2.NETDMT.COM_172.22.22.129",
+      "state": "up",
+      "type": "router",
+      "name": "Cisco3640new-2.NETDMT.COM",
+      "vendor": "ciscoSystems",
+      "location": "Unknown Location",
+      "deviceType": "router",
+      "service": "WAN",
+      "isMonitored": true,
+      "nodes": [
+        {
+          "id": "Cisco3640new-2.NETDMT.COM_172.22.22.129.if.3",
+          "ifIndex": 3,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Nu0",
+          "state": "up"
+        },
+        {
+          "id": "Cisco3640new-2.NETDMT.COM_172.22.22.129.if.1",
+          "ifIndex": 1,
+          "type": "interface",
+          "isMonitored": true,
+          "name": "Fa0/0",
+          "state": "up"
+        }
+      ]
+    }
+  ]
+}
