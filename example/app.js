@@ -45,8 +45,7 @@ class App extends Component {
       })
       .then((data)=> {
         var treeData = this.parsNodeChildren(data.nodes);
-
-        console.log(treeData); 
+        //console.log(treeData); 
         this.setState({
           tree: {
             module: 'react-ui-tree',
